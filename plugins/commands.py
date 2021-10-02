@@ -193,7 +193,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('Update Channel', url='https://t.me/BOTS_GARAGE'),
-            InlineKeyboardButton('Source Code', url='https://t.me/BOTS_GARAGE)
+          
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/noobzv>꧁࿗༒⚔𝐌𝐫 ℙℝ𝕆𝔽𝔼𝕊𝕆ℝ⚔༒࿗꧂</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/BOTS_GARAGE>Click here</a>\nUpdate Channel : <a href='https://t.me/BOTS_GARAGE'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
