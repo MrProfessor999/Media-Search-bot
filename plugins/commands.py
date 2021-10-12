@@ -68,8 +68,12 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton('Search again', switch_inline_query_current_chat=''),
                         InlineKeyboardButton('More Bots', url='https://t.me/BOTS_GARAGE')
-                    ]
-                    ]
+                    ],[
+                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
+                        InlineKeyboardButton("DEVLOPER ⭕", url="https://t.me/N_A_V_I_P_A_V_I")
+                    ],[
+                        InlineKeyboardButton("HELPER", url="htpps://t.me/bandu_of_tg")
+                        InlineKeyboardButton("Bot", url="https://t.me/BOTS_GARAGEAutofilterbot")
                 await bot.send_cached_media(
                     chat_id=cmd.from_user.id,
                     file_id=file_id,
@@ -86,7 +90,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                        InlineKeyboardButton("🤖 Join Updates Channel", url="https://t.me/BOTS_GARAGE")
                     ]
                 ]
             )
@@ -101,10 +105,13 @@ async def start(bot, cmd):
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
                         InlineKeyboardButton("Other Bots", url="https://t.me/BOTS_GARAGE")
-                    ],
-                    [
-                        InlineKeyboardButton("About", callback_data="about")
-                    ]
+                      ],[                    
+                        InlineKeyboardButton("➕️Add Me To Your Chats ➕️", url="https://t.me/Imdbbott_bot?startgroup=botstart")
+                        InlineKeyboardButton("DEVLOPER ⭕", url="https://t.me/N_A_V_I_P_A_V_I")
+                      ],[
+                        InlineKeyboardButton("HELPER", url="htpps://t.me/bandu_of_tg")
+                        InlineKeyboardButton("BOT", url="htpps://t.me/BOTS_GARAGEAutofilterbot")
+                   )
                 ]
             )
         )
